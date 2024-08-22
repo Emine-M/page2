@@ -1,0 +1,221 @@
+.header {
+    background-color: #004641;
+    color: white;
+    padding: 40px 0;
+    text-align: left;
+    font-family: Ryker, sans-serif;
+    padding-left: 230px;
+}
+.page_speed_1630676849{
+    font-family: Ryker, sans-serif;
+    font-size: 1.5rem;
+}
+.wrap {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.header h1 {
+    margin-left: 10px;
+}
+
+.common-section {
+    padding: 20px;
+    max-width: 1200px; /* Limits the width of the section */
+    margin: auto; /* Centers the section */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex: 1;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.image-content {
+    flex: 1;
+    padding: 10px;
+    max-width: 40%; /* Allows more space for text */
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Adds rounded corners to the image */
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .image-content {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-content {
+        float: right;
+        margin-left: 15px;
+        max-width: 50%;
+    }
+
+    .text-content {
+        overflow: hidden;
+    }
+}
+
+/*++++++++++++++++*/
+.city-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #004641;
+    color: white;
+    padding: 40px 0;
+}
+
+
+.form-control {
+    font-size: 1.2rem;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.category-list {
+    background-color: #004641;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.city-search{
+    border-radius: 10px;
+}
+.city__list {
+    list-style-type: none;
+    padding: 0;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.city__list-item a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.city__list-item a:hover {
+    text-decoration: underline;
+}
+
+.map-section {
+    background-color: #009eaa;
+    color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.map-section img {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.statistics h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.statistics p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* +++++++++++++++++ SECTION 3 +++++++++++++++ */
+.header.formation-catalogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between columns */
+    padding: 20px 0; /* Reduced padding for top and bottom */
+    background-color: #004641; /* Background color for the section */
+}
+
+.wp-block-cegos-cegos-custom-content {
+    flex: 0 1 280px; /* Slightly reduced width for each card */
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px; /* Reduced padding inside the cards */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.wp-block-cegos-cegos-custom-content:hover {
+    transform: translateY(-5px);
+}
+
+.card--image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Reduced margin below images */
+}
+
+.card--body {
+    margin-bottom: 10px; /* Reduced margin within the card body */
+}
+
+.txt1 {
+    font-size: 1rem; /* Reduced font size */
+    font-weight: bold;
+    color: #004641;
+}
+
+.txt2 {
+    font-size: 0.85rem; /* Reduced font size */
+    color: #009eaa;
+}
+
+.cta-primary {
+    display: inline-block;
+    background-color: #009eaa;
+    color: white;
+    padding: 6px 10px; /* Reduced padding for the button */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.85rem; /* Reduced font size for the button */
+}
+
+.__arrow:after {
+    content: '→';
+    margin-left: 6px; /* Reduced space for the arrow */
+}
+
+.__download:after {
+    content: '↓';
+    margin-left: 6px; /* Reduced space for the download icon */
+}
+/* +++++++++++++++ SECTION 4 ++++++++++++++ */
+.flex-container{
+    column-count: 4;
+}
+
